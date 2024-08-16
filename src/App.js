@@ -15,6 +15,9 @@ function App() {
           <Header />
           <Routes>
             <Route path="/" element={<Watchhed />} />
+              <Route path="" element={<Watchhed />} />
+
+  
             <Route path="/watched" element={<Watchhed />} />
             <Route path="/watchedlist" element={<WatchedList />} />
             <Route path="/add" element={<Add />} />
