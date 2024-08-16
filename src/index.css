@@ -16,13 +16,9 @@
 
 body {
   margin: 0;
-  background-image:url("https://manybackgrounds.com/images/hd/the-avengers-superhero-movie-eeotwqkmypkvalg9.jpg");
-  background-position:0 0;
-  background-repeat: no-repeat;
-  background-size: cover;
-background-clip: content-box;
+
   overflow-x: hidden;
-  background-color: var(--third);
+  background-color: var(--primary);
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   
