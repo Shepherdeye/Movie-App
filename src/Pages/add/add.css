@@ -1,0 +1,117 @@
+.container-add {
+  width: 80vw;
+  /* background-color: var(--primary); */
+  border-radius: 15px;
+  margin: 5px auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: flex-start;
+  z-index: 0;
+  padding: 0;
+}
+
+.add-grid {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  transition: all ease-in-out .4s;
+
+}
+
+
+
+
+
+
+/* From Uiverse.io by naelawadallah */
+.search-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  text-align: center;
+  margin-top: 5px;
+  margin-bottom: 15px;
+  justify-content: center;
+  align-items: center;
+}
+
+.search-header__input {
+  font-family: inherit;
+  font-size: 16px;
+  background-color: #0a0a0a;
+  border: solid 0.5px #525252;
+  color: #646464;
+  padding: 0.7rem 1rem;
+  border-radius: 5px;
+  width: 690px;
+  height: 48px;
+  transition: all ease-in-out 0.5s;
+  margin-right: -2rem;
+  opacity: 1;
+  text-align: center;
+}
+
+.search-header__input:hover,
+.search-header__input:focus {
+  box-shadow: 0 0 1em #00000013;
+}
+
+.search-header__input:focus {
+  outline: none;
+  background-color: #0a0a0aad;
+}
+
+.search-header__input::-webkit-input-placeholder {
+  font-weight: 100;
+  color: #3a3a3a;
+}
+
+.search-header__input:focus+.search-header__button {
+  background-color: transparent;
+}
+
+.search-header__button {
+  border: none;
+  background-color: transparent;
+  margin-top: 0.1em;
+}
+
+.search-header__button:hover {
+  cursor: pointer;
+}
+
+.search-header__icon {
+  height: 1.3em;
+  width: 1.3em;
+  fill: #3a3a3a;
+}
+
+@media (max-width:770px) {
+  .container-add {
+    width: 75vw;
+
+  }
+
+  .search-header__input {
+    width: 350px;
+    margin: 5px auto;
+    margin-top: 20px;
+  }
+}
+
+@media (max-width:520px) {
+  .container-add {
+    width: 70vw;
+    margin: 20px 98px;
+  }
+
+  .search-header__input {
+    width: 250px;
+    margin: 5px auto;
+    margin-top: 20px;
+  }
+}

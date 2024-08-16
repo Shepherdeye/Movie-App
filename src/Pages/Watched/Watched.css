@@ -1,0 +1,37 @@
+.container-watched {
+    width: 80vw;
+    min-height: 60vh;
+    border-radius: 15px;
+    background-color: var(--primary);
+    margin: 50px auto;
+    padding: 20px;
+    color: var(--secondary);
+}
+
+.title-watched {
+    font-size: 12px;
+}
+
+@media (max-width:700px) {
+    .container-watched {
+        font-size: 15px;
+    }
+
+    .title-watched {
+        font-size: 10px;
+        text-align: center;
+    }
+}
+
+@media (max-width:500px) {
+    .container-watched {
+        font-size: 15px;
+        margin: 20px 73px;
+        width: 74vw;
+    }
+
+    .title-watched {
+        font-size: 10px;
+        text-align: center;
+    }
+}

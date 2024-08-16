@@ -1,0 +1,68 @@
+Global Styles
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f6f8;
+    margin: 0;
+    padding: 20px;
+    color: #333;
+}
+
+
+h1 {
+    text-align: center;
+    color: #ff6347;
+    margin-bottom: 20px;
+    font-size: 2rem;
+}
+
+
+.PokemonList {
+    list-style-type: none;
+    padding: 0;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.PokemonList li {
+    background-color: #fff;
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin: 10px;
+    width: 150px;
+    text-align: center;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+.PokemonList li:hover {
+    transform: scale(1.05);
+}
+
+
+.Pagination {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+
+.Pagination button {
+    background-color: #ff6347;
+    border: none;
+    color: white;
+    padding: 10px 20px;
+    margin: 0 10px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+}
+
+.Pagination button:hover {
+    background-color: #e5533d;
+}
+
+.Pagination button:disabled {
+    background-color: #ddd;
+    cursor: not-allowed;
+}
