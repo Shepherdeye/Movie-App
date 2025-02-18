@@ -1,2 +1,2 @@
-<h1> this is an movie app update </h1>
-<p> add new desc</p>
+<h1>movie app</h1>
+<p> by using this app you can  add any  movie to your watched list</p>
